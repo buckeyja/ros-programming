@@ -1,0 +1,2 @@
+set(basics_MESSAGE_FILES "/home/buckey/catkin_ws/src/basics/msg/Complex.msg;/home/buckey/catkin_ws/devel/share/basics/msg/TimerAction.msg;/home/buckey/catkin_ws/devel/share/basics/msg/TimerActionGoal.msg;/home/buckey/catkin_ws/devel/share/basics/msg/TimerActionResult.msg;/home/buckey/catkin_ws/devel/share/basics/msg/TimerActionFeedback.msg;/home/buckey/catkin_ws/devel/share/basics/msg/TimerGoal.msg;/home/buckey/catkin_ws/devel/share/basics/msg/TimerResult.msg;/home/buckey/catkin_ws/devel/share/basics/msg/TimerFeedback.msg")
+set(basics_SERVICE_FILES "")

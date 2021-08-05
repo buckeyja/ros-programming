@@ -1,0 +1,8 @@
+prefix=/home/buckey/catkin_ws/install
+
+Name: basics
+Description: Description of basics
+Version: 1.0.0
+Cflags: -I/home/buckey/catkin_ws/install/include
+Libs: -L/home/buckey/catkin_ws/install/lib 
+Requires: rospy message_runtime actionlib_msgs

@@ -1,0 +1,8 @@
+prefix=/home/buckey/catkin_ws/install
+
+Name: chapter4
+Description: Description of chapter4
+Version: 0.0.0
+Cflags: -I/home/buckey/catkin_ws/install/include
+Libs: -L/home/buckey/catkin_ws/install/lib 
+Requires: 
