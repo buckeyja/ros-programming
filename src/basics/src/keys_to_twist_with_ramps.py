@@ -44,7 +44,7 @@ def send_twist():
 
 def keys_cb(msg):
   global g_target_twist, g_vel_scales
-  if len(msg.data) == 0 or not key_mapping.has_key(msg.data[0]):
+  if len(msg.data) == 0 or not msg.data[0] in key_mapping:
     return # unkown key
   vels = key_mapping[msg.data[0]]
   g_target_twist.angular.z = vels[0] * g_vel_scales[0]
